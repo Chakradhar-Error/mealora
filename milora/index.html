@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mealora | More Than Meals</title>
+<meta name="description" content="Find trusted caterers for weddings, birthdays, housewarmings, corporate events and festivals.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#app">Skip to content</a>
+<div class="vstage" aria-hidden="true"><video id="bgv" muted playsinline preload="auto" poster="media/bg-poster.jpg"><source src="media/bg.mp4" type="video/mp4"><source src="media/bg.webm" type="video/webm"></video><div class="vshade"></div></div>
+<header class="hd">
+  <div class="wrap hi">
+    <a class="logo" href="#/" aria-label="Mealora home"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h16a8 8 0 0 1-16 0zM9 8c0-2 2-2 2-4M14 8c0-2 2-2 2-4"/></svg><span>Mealora<small>More Than Meals.</small></span></a>
+    <nav id="nav" class="nav" aria-label="Main">
+      <a href="#/" data-r="home">Home</a><a href="#/lunchboxes" data-r="lunchboxes">Lunchboxes</a><a href="#/catering" data-r="catering">Catering</a><a href="#/workers" data-r="workers">Workers</a>
+    </nav>
+    <div class="hr">
+      <a href="#/results" class="ib" aria-label="Search caterers"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg></a>
+      <a id="auth" class="btn sm" href="#/login">Log in / Sign up</a>
+      <button id="bg" class="ib bg" aria-label="Open menu" aria-expanded="false" aria-controls="nav"><svg viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+    </div>
+  </div>
+</header>
+
+<main id="app" tabindex="-1"></main>
+
+<dialog id="dlg" aria-labelledby="dt"><div id="dc"></div><form method="dialog"><button class="btn ghost sm">Close</button></form></dialog>
+
+<footer class="ft">
+  <div class="wrap fg4">
+    <div><b class="fl">Mealora</b><p class="fs">More Than Meals.</p><p class="mu2">Find trusted caterers for every celebration, from small family functions to grand weddings.</p></div>
+    <div><h4>Quick Links</h4><a href="#/">Home</a><a href="#/lunchboxes">Lunchboxes</a><a href="#/catering">Catering</a><a href="#/workers">Workers</a></div>
+    <div><h4>Support</h4><a href="#/p/help">Help Center</a><a href="#/p/faqs">FAQs</a><a href="#/p/contact">Contact Us</a></div>
+    <div><h4>Policies</h4><a href="#/p/terms">Terms &amp; Conditions</a><a href="#/p/privacy">Privacy Policy</a><a href="#/p/refund">Refund Policy</a></div>
+    <div><h4>Get in Touch</h4><span id="fe"></span><span id="fp"></span><span id="fl2"></span></div>
+  </div>
+  <p class="copy">&copy; <span id="yr"></span> Mealora. All rights reserved.</p>
+</footer>
+<script src="app.js"></script>
+</body>
+</html>
